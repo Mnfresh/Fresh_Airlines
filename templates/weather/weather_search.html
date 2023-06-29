@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Search location</title>
+  <link rel="stylesheet" type="text/css" href="{% static 'css/add_to_the_balance.css' %}">
+</head>
+<body>
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Search</button>
+      <a href="{% url 'profile' %}" class="home-link">Go to My Profile</a>
+  </form>
+ {% include 'base/footer.html' %}
+</body>
+</html>

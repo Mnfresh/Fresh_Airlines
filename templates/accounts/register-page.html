@@ -1,0 +1,31 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fresh Airlines - Register</title>
+  <link rel="stylesheet" type="text/css" href="{% static 'css/register.css' %}">
+</head>
+<body>
+  <form method="POST">
+    {% csrf_token %}
+    <h1>Register</h1>
+
+    {% for field in form %}
+      <div class="form-field">
+        {{ field.label_tag }}
+        {{ field }}
+        {% if field.errors %}
+          <div class="error">{{ field.errors }}</div>
+        {% endif %}
+      </div>
+    {% endfor %}
+
+    <input type="submit" value="Register">
+  </form>
+
+  <footer>
+    <p>&copy; 2023 Fresh Airlines. All rights reserved.</p>
+  </footer>
+</body>
+</html>

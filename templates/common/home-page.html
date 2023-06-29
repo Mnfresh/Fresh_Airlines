@@ -1,0 +1,145 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fresh Airlines</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #ff8080;
+      color: #fff;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      margin-right: 10px;
+      height: 40px;
+      width: auto;
+    }
+
+    .logo-container {
+      display: flex;
+      align-items: center;
+    }
+
+    .company-name {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav li {
+      margin-left: 10px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 8px 16px;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #ff6666;
+    }
+
+    main {
+      flex: 1;
+      padding: 20px;
+      color: #fff;
+      background-image: url('{% static 'images/john-mcarthur-X_MOr6oa4-k-unsplash.jpg' %}');
+      background-size: cover;
+      background-position: center;
+    }
+
+    h1, h2 {
+      color: #ff8080;
+      margin-bottom: 10px;
+    }
+
+    p {
+      line-height: 1.5;
+      color: #fff;
+      font-size: 18px;
+    }
+
+    .content {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    footer {
+      background-color: #ff8080;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      position: sticky;
+      bottom: 0;
+    }
+
+    footer p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img class="logo" src="{% static 'images/firestone-shield-logo-1300x1300.png' %}" alt="img1">
+      <span class="company-name">Fresh Airlines</span>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="{% url 'index'%}">Home</a></li>
+        <li><a href="{% url 'login'%}">Login</a></li>
+        <li><a href="{% url 'register'%}">Register</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="content">
+      <section>
+        <h2>About Our Company</h2>
+        <p>Welcome to Fresh Airlines, where your journey begins with extraordinary experiences. As a premier airline company, we are committed to providing exceptional service and creating memorable moments for our passengers.</p>
+
+        <p>With a passion for aviation and a dedication to excellence, Fresh Airlines offers a wide range of destinations, luxurious amenities, and personalized customer care. Whether you are traveling for business or leisure, our professional and friendly crew is here to ensure your comfort and satisfaction throughout your entire journey.</p>
+
+        <p>At Fresh Airlines, we strive to deliver unparalleled quality in every aspect of your travel experience. From our state-of-the-art aircraft to our innovative entertainment options, we go above and beyond to exceed your expectations. Our commitment to safety, punctuality, and customer service sets us apart and makes us the preferred choice for discerning travelers.</p>
+
+        <p>Join us on an adventure and discover the world with Fresh Airlines. We look forward to welcoming you on board and providing you with an extraordinary travel experience you won't soon forget.</p>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Fresh Airlines. All rights reserved.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8836fc8e-e26f-4efa-a247-a2d5cf5a92d5" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2QpzWkCHTwgDP0pH2pLwBS0qzQ0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/De da znam/Desktop/Martin_Nadzhev project/Fresh_Airlines&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\De da znam\PycharmProjects\Fresh_Airlines\Fresh_Airlines" />
+      <recent name="C:\Users\De da znam\PycharmProjects\Fresh_Airlines\static\css" />
+      <recent name="C:\Users\De da znam\PycharmProjects\Fresh_Airlines\templates\base" />
+      <recent name="C:\Users\De da znam\PycharmProjects\Fresh_Airlines\templates\wallet" />
+      <recent name="C:\Users\De da znam\PycharmProjects\Fresh_Airlines\templates\ticket" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Django Server.Fresh_Airlines">
+    <configuration name="weather.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Fresh_Airlines/templates/weather/weather.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Fresh_Airlines" type="Python.DjangoServer" factoryName="Django server">
+      <module name="Fresh_Airlines" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="Fresh_Airlines.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.weather.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8836fc8e-e26f-4efa-a247-a2d5cf5a92d5" name="Changes" comment="" />
+      <created>1686065345021</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686065345021</updated>
+      <workItem from="1686065363467" duration="531000" />
+      <workItem from="1686069988971" duration="547000" />
+      <workItem from="1686122899562" duration="20000" />
+      <workItem from="1686669416684" duration="2222000" />
+      <workItem from="1686731328631" duration="762000" />
+      <workItem from="1686732231962" duration="16000" />
+      <workItem from="1686739913691" duration="3715000" />
+      <workItem from="1686746081035" duration="1969000" />
+      <workItem from="1686748204280" duration="87000" />
+      <workItem from="1686771133572" duration="3243000" />
+      <workItem from="1686774439332" duration="68000" />
+      <workItem from="1686839622033" duration="137000" />
+      <workItem from="1686839880280" duration="97000" />
+      <workItem from="1686843157814" duration="2065000" />
+      <workItem from="1686845239043" duration="4301000" />
+      <workItem from="1686850917015" duration="1649000" />
+      <workItem from="1686899659476" duration="5437000" />
+      <workItem from="1686912685044" duration="9000000" />
+      <workItem from="1686929170719" duration="108000" />
+      <workItem from="1686983199761" duration="2316000" />
+      <workItem from="1686987429417" duration="253000" />
+      <workItem from="1686987693886" duration="158000" />
+      <workItem from="1686987861543" duration="1099000" />
+      <workItem from="1687013394183" duration="3808000" />
+      <workItem from="1687024824638" duration="2102000" />
+      <workItem from="1687069016743" duration="1976000" />
+      <workItem from="1687074004975" duration="7296000" />
+      <workItem from="1687084561595" duration="378000" />
+      <workItem from="1687086676113" duration="6881000" />
+      <workItem from="1687164080379" duration="3459000" />
+      <workItem from="1687167559789" duration="30000" />
+      <workItem from="1687191996824" duration="869000" />
+      <workItem from="1687243464532" duration="1713000" />
+      <workItem from="1687247405422" duration="51000" />
+      <workItem from="1687279590710" duration="77000" />
+      <workItem from="1687282178063" duration="31000" />
+      <workItem from="1687447858057" duration="8741000" />
+      <workItem from="1687527125646" duration="3078000" />
+      <workItem from="1687586495190" duration="3213000" />
+      <workItem from="1687769234619" duration="6341000" />
+      <workItem from="1687783505833" duration="817000" />
+      <workItem from="1687795800579" duration="31000" />
+      <workItem from="1687798302777" duration="159000" />
+      <workItem from="1687801485392" duration="574000" />
+      <workItem from="1687802074450" duration="2556000" />
+      <workItem from="1687806789113" duration="67000" />
+      <workItem from="1687851589510" duration="2097000" />
+      <workItem from="1687878178992" duration="5242000" />
+      <workItem from="1687883861797" duration="836000" />
+      <workItem from="1687886562587" duration="901000" />
+      <workItem from="1687889070253" duration="5772000" />
+      <workItem from="1687963127800" duration="9892000" />
+      <workItem from="1688022180234" duration="2675000" />
+      <workItem from="1688031696685" duration="67000" />
+      <workItem from="1688046514146" duration="331000" />
+      <workItem from="1688050525544" duration="2865000" />
+      <workItem from="1688062673841" duration="57000" />
+      <workItem from="1688062755034" duration="924000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

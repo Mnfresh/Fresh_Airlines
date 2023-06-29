@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tickets</title>
+  <link rel="stylesheet" type="text/css" href="{% static 'css/ticekts.css' %}">
+</head>
+<body>
+{% include 'base/nax_bar.html' %}
+
+  <main>
+    <div class="tickets-container">
+      {% if tickets %}
+        {% for ticket in tickets %}
+          <div class="ticket">
+            <div class="header">
+              <h2>Flight Ticket</h2>
+            </div>
+            <div class="flight-details">
+              <p><strong>From:</strong> {{ ticket.start_city }}, {{ ticket.start_country }}</p>
+              <p><strong>To:</strong> {{ ticket.end_city }}, {{ ticket.end_country }}</p>
+              <p><strong>Departure:</strong> {{ ticket.date_and_time_of_take_off }}</p>
+              <p><strong>Arrival:</strong> {{ ticket.date_and_time_of_arrival }}</p>
+            </div>
+            <div class="details">
+              <p><strong>Flight Number:</strong> {{ ticket.slug }}</p>
+              <p><strong>Price:</strong> {{ ticket.price }} {{ ticket.currency }}</p>
+            </div>
+            <a class="buy-button" href={% url "buy_ticket" ticket.id %}>Buy Ticket</a>
+          </div>
+        {% endfor %}
+      {% else %}
+        <p>No tickets found.</p>
+      {% endif %}
+    </div>
+  </main>
+   {% include 'base/footer.html' %}
+</body>
+</html>

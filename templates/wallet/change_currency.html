@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Change Currency</title>
+  <link rel="stylesheet" type="text/css" href="{% static 'css/add_to_the_balance.css' %}">
+</head>
+<body>
+ <div class="container">
+   <h1 class="title">Change Currency</h1>
+   <p class="balance">Current Balance: {{ balance|floatformat:2 }} {{ currency }}</p>
+   <div class="button-container">
+      <form method="post">
+          {% csrf_token %}
+          {{ form.as_p }}
+          <button type="submit">Convert</button>
+      </form>
+       <a href="{% url 'wallet' %}">Return to My Wallet</a>
+   </div>
+ </div>
+ <footer>
+ </footer>
+</body>
+</html>

@@ -1,0 +1,47 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Profile</title>
+  <link rel="stylesheet" type="text/css" href="{% static 'css/profile.css' %}">
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img class="logo" src="{% static 'images/firestone-shield-logo-1300x1300.png' %}" alt="img1">
+      <span class="company-name">Fresh Airlines</span>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="{% url 'tickets' %}">Tickets</a></li>
+        <li><a href="{% url 'wallet' %}">My Wallet</a></li>
+          <li><a href="{% url 'search weather' %}">Weather</a></li>
+          <li><a href="{% url 'profile' %}">My Profile</a></li>
+        <li><a href="{% url 'logout' %}">Log out</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="container-block profile">
+      <h1>User Profile</h1>
+      <p><strong>Username:</strong> {{ user.username }}</p>
+      <p><strong>Email:</strong> {{ user.email }}</p>
+      <p><strong>First Name:</strong> {{ user.first_name }}</p>
+      <p><strong>Last Name:</strong> {{ user.last_name }}</p>
+    </div>
+
+    <div class="container-block options">
+      <h1>Profile Options</h1>
+      <ul class="profile-list">
+        <li><a href="{% url 'change_password' %}">Change Password</a></li>
+          <li><a href="{% url 'my_tickets' %}">My Tickets</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 Fresh Airlines. All rights reserved.</p>
+  </footer>
+</body>
+</html>

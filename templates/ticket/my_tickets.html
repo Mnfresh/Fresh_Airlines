@@ -1,0 +1,51 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Tickets</title>
+  <link rel="stylesheet" type="text/css" href="{% static 'css/myticket.css' %}">
+</head>
+<body>
+
+
+<main>
+  <h2>My Tickets</h2>
+
+  {% if mytickets %}
+    <ul class="ticket-list">
+      {% for purchased_ticket in mytickets %}
+        <li class="ticket-item">
+          <h3 class="ticket-title">{{ purchased_ticket.ticket.title }}</h3>
+          <div class="ticket-details">
+            <p>From: {{ purchased_ticket.ticket.start_country }},
+                     {{ purchased_ticket.ticket.start_city}},
+                     {{ purchased_ticket.ticket.start_airport }}</p>
+            <p>To: {{ purchased_ticket.ticket.end_country }},
+                   {{ purchased_ticket.ticket.end_city}},
+                   {{ purchased_ticket.ticket.end_airport }}</p>
+            <p>Take off at: {{ purchased_ticket.ticket.date_and_time_of_take_off }}</p>
+            <p>Arrival at : {{ purchased_ticket.ticket.date_and_time_of_arrival }}</p>
+            <p>Details: {{ purchased_ticket.ticket.details}}</p>
+            <p>Additional baggage: {{ purchased_ticket.ticket.additional_baggage }}</p>
+            <p>Place in plane : {{ purchased_ticket.ticket.place_in_plane }}</p>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p>No tickets purchased yet.</p>
+  {% endif %}
+
+  <a href="{% url 'profile' %}" class="home-link">Go to My Profile</a>
+</main>
+
+<footer>
+  {% include 'base/footer.html' %}
+</footer>
+
+</body>
+</html>
+
+
+

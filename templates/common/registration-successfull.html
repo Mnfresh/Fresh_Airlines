@@ -1,0 +1,18 @@
+{% load static %}
+<!-- success.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Success</title>
+  <link rel="stylesheet" type="text/css" href="{% static 'css/registration_successfull.css' %}">
+</head>
+<body>
+  <div class="container">
+    <h1>Registration Successful</h1>
+    <p>Congratulations! You have successfully registered.</p>
+
+    <a href="{% url 'index' %}" class="btn">Go to Home Page</a>
+  </div>
+</body>
+</html>

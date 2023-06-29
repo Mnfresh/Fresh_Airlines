@@ -1,0 +1,16 @@
+{% load static %}
+<header>
+  <div class="logo-container">
+    <img class="logo" src="{% static 'images/firestone-shield-logo-1300x1300.png' %}" alt="img1">
+    <span class="company-name">Fresh Airlines</span>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="{% url 'tickets' %}">Tickets</a></li>
+      <li><a href="{% url 'wallet' %}">My Wallet</a></li>
+        <li><a href="{% url 'profile' %}">My Profile</a></li>
+        <li><a href="{% url 'search weather' %}">Weather</a></li>
+        <li><a href="{% url 'logout' %}">Log out</a></li>
+    </ul>
+  </nav>
+</header>

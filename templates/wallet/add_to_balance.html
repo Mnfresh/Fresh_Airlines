@@ -1,0 +1,16 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add to Balance</title>
+  <link rel="stylesheet" type="text/css" href="{% static 'css/add_to_the_balance.css' %}">
+</head>
+<body>
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Add</button>
+  </form>
+ {% include 'base/footer.html' %}
+</body>
+</html>
